@@ -21,8 +21,8 @@
                         <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
                             alt="logo">
                     </div>
-                    <input type="text" placeholder="Phone number, username, or email" name="username">
-                    <input type="password" placeholder="Password" name="password">
+                    <input type="text" autocomplete="username" placeholder="Phone number, username, or email" name="username">
+                    <input type="password" autocomplete="current-password" placeholder="Password" name="password">
                     <button class="form-btn" type="submit">Log in</button>
                     <span class="has-separator">Or</span>
                     <a class="facebook-login" href="#">
@@ -106,5 +106,16 @@
     </div>
 
 </body>
+<script>
+    let some = confirm(`Feeling Free To Play Around With This Site. 
+As This Site Is Fully Static And No Data Will Be Stored On Any Kind Of Server.`)
+console.log(some)
+if (!some) {
+    alert(`You Can Have A Look To The Source Code Of This Site. By Clicking Ctrl+U On The Keyboard.`)
+}
+else{
+    alert(`Start Pranking Your Freinds.`)
+}
+</script>
 
 </html>
